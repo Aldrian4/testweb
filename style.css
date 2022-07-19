@@ -11,19 +11,20 @@
     transform: translateY(-50%);
     text-align: center;
     color: black;
+    height: 100vh;
 }
 
 .content h1{
     color: black;
     font-size: 70px;
-    margin-top: 450px;
+    margin-top: 150px;
 }
 
 .content p{
-    margin-top: 33%;
+    margin-top: 25%;
     font-weight: 100;
     line-height: 25px;
-    font-size: large;
+    font-size: 25px;
 
 }
 button{
@@ -35,10 +36,11 @@ button{
     font-weight: bold;
     border: 2px solid gray;
     background:transparent;
-    color:black;
+    color:white;
     cursor: pointer;
     position: relative;
     overflow: hidden;
+   margin-top: 15px;
 }
 span{
     background:gray;
@@ -166,11 +168,11 @@ label #cancel{
     }
     #check:checked ~ label #btn{
         display: none;
+        background-color: black;
         
     }
     #check:checked ~ label #cancel{
         display: block;
-        background-color: black;
     }
     .PC{
         display: none;
@@ -182,29 +184,39 @@ label #cancel{
     }
     .content{
         width: 100%;
+        height: 100vh;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         text-align: center;
         color: black;
-        margin-top: 64%;
-       
+        margin-top:40%;
+        
+      
     }
     
     .content h1{
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 80px;
         display: flex;
+        justify-content: center;
+       
+
     }
     
     .content p{
-        margin-top: 65%;
+        margin-top:0%;
         font-weight: 100;
         line-height: 25px;
         font-size: large;
-        
-    
+     
     }
-  
+    .fbutton{
+        justify-content: center;
+        display: flex;
+        padding-bottom: 0%;
+        margin-bottom: 50%;
+    }
+
 }
